@@ -1,8 +1,8 @@
 /**
  * @description 下载证书
- * @returns  DownloadCertificateUrl
- * @returns  DownloadFilename
- * @returns  RequestId
+ * @param {string} DownloadCertificateUrl
+ * @param {string} DownloadFilename
+ * @returns {string} filePath 文件下载路径
  */
 
 const https = require('https');

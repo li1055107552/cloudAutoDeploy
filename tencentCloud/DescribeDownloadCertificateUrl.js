@@ -1,8 +1,10 @@
 /**
  * @description 获取下载证书链接
- * @returns  DownloadCertificateUrl
- * @returns  DownloadFilename
- * @returns  RequestId
+ * @param {string} CertificateId
+ * @param {string} ServiceType
+ * @returns {object} DescribeDownloadCertificateUrl
+ * @returns {string} DescribeDownloadCertificateUrl.DownloadCertificateUrl
+ * @returns {string} DescribeDownloadCertificateUrl.DownloadFilename
  */
 
 const utils = require("./utils/utils")

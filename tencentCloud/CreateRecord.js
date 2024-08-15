@@ -1,9 +1,9 @@
 /**
  * @description 添加一条DNS解析记录
  * @param {Object} DvAuths
- * @param {String} DvAuths.DvAuthDomain
- * @param {String} DvAuths.DvAuthKeySubDomain
- * @param {String} DvAuths.DvAuthValue
+ * @param {String} DvAuths.DvAuthDomain 主域名
+ * @param {String} DvAuths.DvAuthKeySubDomain 主机记录
+ * @param {String} DvAuths.DvAuthValue 值
  * @returns  RecordId
  * @returns  RequestId
  */

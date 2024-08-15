@@ -1,5 +1,6 @@
 /**
  * @description 获取证书信息
+ * @param {string} CertificateId
  * @returns RequestId
  * 
     "CertBeginTime": "2024-08-14 08:00:00",

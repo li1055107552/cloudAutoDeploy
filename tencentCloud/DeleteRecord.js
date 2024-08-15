@@ -1,7 +1,7 @@
 /**
  * @description 删除一条DNS解析记录
- * @param {String} Domain
- * @param {String} RecordId
+ * @param {String} Domain 主域名
+ * @param {String} RecordId 记录Id
  * @returns  RequestId
  */
 

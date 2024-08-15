@@ -1,5 +1,6 @@
 /**
  * @description 免费证书申请
+ * @param {string} DomainName 申请的证书域名
  * @returns  CertificateId
  * @returns  Data
  * @returns  RequestId
